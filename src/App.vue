@@ -17,7 +17,7 @@ export default {
   data: () => {
     return {
       style: {
-        body: "flex flex-col w-screen h-screen overflow-x-hidden items-center justify-start text-slate-800 bg-slate-50 relative",
+        body: "flex flex-col w-screen h-screen overflow-x-hidden items-center justify-start text-slate-800 bg-slate-50 relative font-base",
       },
     };
   },
