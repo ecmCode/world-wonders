@@ -1,0 +1,60 @@
+{
+    
+    "wallpapers":[
+    {
+        "url":"./src/assets/wallpaper1.jpg",
+        "name":"Machu Picchu",
+        "location":"Peru",
+        "description":"Machu Picchu , Ancient fortress city of the Incas in the Andes Mountains, south-central Peru. Perched near Cuzco in a narrow saddle between two sharp peaks, at an elevation of 7,710 ft (2,350 m), it escaped detection by the Spaniards, and its existence was made known only in 1911 by U.S. explorer Hiram Bingham.",
+        "style":{
+            "background":"bg-emerald-600/40",
+            "title":"first-letter:text-emerald-600",
+            "button":"hover:bg-emerald-600 shadow-bg-emerald-600 ring-emerald-600 text-emerald-50 hover:text-emerald-50"
+        }
+    },
+    {
+        "url":"./src/assets/wallpaper2.jpg",
+        "name":"Chichen Itza",
+        "location":"Mexico",
+        "description":"Chichén Itzá, ruined ancient Maya city occupying an area of 4 square miles (10 square km) in south-central Yucatán state, Mexico. It is thought to have been a religious, military, political, and commercial centre that at its peak would have been home to 35,000 people.",
+        "style":{
+            "background":"bg-slate-400/40",
+            "title":"first-letter:text-slate-400",
+            "button":"hover:bg-slate-400 shadow-bg-slate-400 ring-slate-400 text-slate-50 hover:text-slate-50"
+        }
+    },
+    {
+        "url":"./src/assets/wallpaper3.jpg",
+        "name":"Giza Pyramids",
+        "location":"Egypt",
+        "description":"Great Pyramid of Giza, also called Great Pyramid and Great Pyramid of Khufu, ancient Egyptian pyramid that is the largest of the three Pyramids of Giza. It was built to honor Khufu, the second king of Egypt’s 4th dynasty, and was completed about 2560 BCE.",
+        "style":{
+            "background":"bg-amber-600/40",
+            "title":"first-letter:text-amber-600",
+            "button":"hover:bg-amber-600 shadow-bg-amber-600 ring-amber-600 text-amber-50 hover:text-amber-50"
+        }
+    },
+    {
+        "url":"./src/assets/wallpaper4.jpg",
+        "name":"Angkor Wat",
+        "location":"Cambodia",
+        "description":"Angkor Wat is an enormous Buddhist temple complex located in northern Cambodia. It was originally built in the first half of the 12th century as a Hindu temple. Spread across more than 400 acres, Angkor Wat is said to be the largest religious monument in the world.",
+        "style":{
+            "background":"bg-yellow-300/40",
+            "title":"first-letter:text-yellow-300",
+            "button":"hover:bg-yellow-300 shadow-bg-yellow-300 ring-yellow-300 text-yellow-50 hover:text-yellow-50"
+        }
+    },
+    {
+        "url":"./src/assets/wallpaper5.jpg",
+        "name":"Colosseum",
+        "location":"Italy",
+        "description":"The Colosseum in Rome, Italy, is a large amphitheater that hosted events like gladiatorial games. Design Pics Inc. Encyclopedic Entry Vocabulary. The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.",
+        "style":{
+            "background":"bg-rose-700/40",
+            "title":"first-letter:text-rose-700",
+            "button":"hover:bg-rose-700 shadow-bg-rose-700 ring-rose-700 text-rose-50 hover:text-rose-50"
+        }
+    }
+]
+}
