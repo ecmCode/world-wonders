@@ -20,16 +20,16 @@ import wallpapers from "../assets/index.json";
           {{ wallpapers.wallpapers[value].location }}
         </span>
       </p>
-      <p
+      <div
         :class="`${style.text} ${wallpapers.wallpapers[value].style.background}`"
       >
-        {{ wallpapers.wallpapers[value].description }}
+        <p :class="style.desc">{{ wallpapers.wallpapers[value].description }}</p>
         <button
           :class="`${style.button} ${wallpapers.wallpapers[value].style.button}`"
         >
           More
         </button>
-      </p>
+      </div>
     </div>
     <font-awesome-icon
       icon="fa-solid fa-arrow-right"
@@ -46,15 +46,16 @@ export default {
       style: {
         icon: "z-10 relative top-0 lg:top-10 text-5xl rounded-full p-0 lg:p-4 h-10 w-10 bg-none hover:shadow-xl transition cursor-pointer hover:animate-pulse",
         body: "w-full h-full flex justify-around items-center text-slate-50 select-none",
-        bg: "absolute w-screen h-screen scale-125 sm:scale-100 object-cover brightness-90 ",
+        bg: "absolute w-screen h-screen scale-125 sm:scale-100 object-cover brightness-90",
         container:
           "z-10 w-3/4 lg:w-2/3 flex flex-col justify-start lg:justify-center items-center p-0 lg:p-10 relative top-10 ",
         title:
-          "uppercase text-5xl sm:text-6xl lg:text-7xl tracking-widest first-letter:text-7xl first-letter:sm:text-8xl first-letter:font-bold text-center drop-shadow-lg m-4",
+          "uppercase text-6xl lg:text-7xl tracking-widest first-letter:text-7xl first-letter:sm:text-8xl first-letter:font-bold text-center drop-shadow-lg m-4",
         sub: "relative left-0 lg:left-40 font-thin p-2 tracking-wider font-bold sm:p-4 text-xl md:text-2xl bg-slate-900/60 transition duration-300 hover:bg-transparent hover:text-transparent",
-        text: "w-full text-base sm:text-lg text-left p-4 lg:p-10 backdrop-blur-sm hover:backdrop-blur-none hover:bg-transparent rounded-md transition duration-300 shadow-lg hover:shadow-none hover:text-transparent",
+        text: "w-full p-4 lg:p-10 backdrop-blue-none sm:backdrop-blur-sm hover:sm:backdrop-blur-none hover:bg-transparent rounded-md transition duration-300 shadow-lg hover:shadow-none hover:text-transparent flex flex-col justify-center items-center sm:items-end",
+        desc:" text-base hidden sm:block sm:text-lg text-left",
         button:
-          "m-4 hover:ring-offset-2 ring-offset-transparent float-left tracking-widest sm:float-right",
+          "m-4 hover:ring-offset-2 ring-offset-transparent tracking-widest float-right",
       },
       value: 0,
     };
@@ -68,7 +69,7 @@ export default {
       }
     },
     increment() {
-      if (this.value >= wallpapers.wallpapers.length-1) {
+      if (this.value >= wallpapers.wallpapers.length - 1) {
         this.value = 0;
       } else {
         this.value += 1;

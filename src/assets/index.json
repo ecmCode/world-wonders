@@ -8,9 +8,9 @@
         "description":"Machu Picchu , Ancient fortress city of the Incas in the Andes Mountains, south-central Peru. Perched near Cuzco in a narrow saddle between two sharp peaks, at an elevation of 7,710 ft (2,350 m), it escaped detection by the Spaniards, and its existence was made known only in 1911 by U.S. explorer Hiram Bingham.",
         "style":{
             "text":"text-emerald-600",
-            "background":"bg-emerald-600/40",
+            "background":"bg-none sm:bg-emerald-600/40",
             "title":"first-letter:text-emerald-600",
-            "button":"hover:bg-emerald-600 shadow-bg-emerald-600 ring-emerald-600 text-emerald-50 hover:text-emerald-50",
+            "button":"hover:bg-emerald-600 bg-emerald-600/30 ring-emerald-600 text-emerald-300 hover:text-emerald-50",
             "arrow":"hover:text-emerald-600 shadow-emerald-600 lg:bg-emerald-50/20 hover:lg:bg-emerald-600/50"
         }
     },
@@ -21,9 +21,9 @@
         "description":"Chichén Itzá, ruined ancient Maya city occupying an area of 4 square miles (10 square km) in south-central Yucatán state, Mexico. It is thought to have been a religious, military, political, and commercial centre that at its peak would have been home to 35,000 people.",
         "style":{
             "text":"text-sky-500",
-            "background":"bg-sky-500/40",
+            "background":"bg-none sm:bg-sky-500/40",
             "title":"first-letter:text-sky-500",
-            "button":"hover:bg-sky-500 shadow-bg-sky-500 ring-sky-500 text-sky-50 hover:text-sky-50",
+            "button":"hover:bg-sky-500 bg-sky-500/30 ring-sky-500 text-sky-300 hover:text-sky-50",
             "arrow":"hover:text-sky-500 shadow-sky-500 lg:bg-sky-50/20 hover:lg:bg-sky-500/50"
         }
     },
@@ -34,9 +34,9 @@
         "description":"Great Pyramid of Giza, also called Great Pyramid and Great Pyramid of Khufu, ancient Egyptian pyramid that is the largest of the three Pyramids of Giza. It was built to honor Khufu, the second king of Egypt’s 4th dynasty, and was completed about 2560 BCE.",
         "style":{
             "text":"text-orange-600",
-            "background":"bg-orange-600/40",
+            "background":"bg-none sm:bg-orange-600/40",
             "title":"first-letter:text-orange-600",
-            "button":"hover:bg-orange-600 shadow-bg-orange-600 ring-orange-600 text-amber-50 hover:text-amber-50",
+            "button":"hover:bg-orange-600 bg-orange-600/30 ring-orange-600 text-amber-300 hover:text-amber-50",
             "arrow":"hover:text-orange-600 shadow-orange-600 lg:bg-orange-50/20 hover:lg:bg-orange-600/50"
         }
     },
@@ -47,9 +47,9 @@
         "description":"Angkor Wat is an enormous Buddhist temple complex located in northern Cambodia. It was originally built in the first half of the 12th century as a Hindu temple. Spread across more than 400 acres, Angkor Wat is said to be the largest religious monument in the world.",
         "style":{
             "text":"text-amber-500",
-            "background":"bg-amber-500/40",
+            "background":"bg-none sm:bg-amber-500/40",
             "title":"first-letter:text-amber-500",
-            "button":"hover:bg-amber-500 shadow-bg-amber-500 ring-amber-500 text-yellow-50 hover:text-amber-50",
+            "button":"hover:bg-amber-500 bg-amber-500/30 ring-amber-500 text-yellow-300 hover:text-amber-50",
             "arrow":"hover:text-amber-600 shadow-amber-600 lg:bg-amber-50/20 hover:lg:bg-amber-600/50"
         }
     },
@@ -60,9 +60,9 @@
         "description":"The Colosseum in Rome, Italy, is a large amphitheater that hosted events like gladiatorial games. Design Pics Inc. Encyclopedic Entry Vocabulary. The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.",
         "style":{
             "text":"text-rose-700",
-            "background":"bg-rose-700/40",
+            "background":"bg-none sm:bg-rose-700/40",
             "title":"first-letter:text-rose-700",
-            "button":"hover:bg-rose-700 shadow-bg-rose-700 ring-rose-700 text-rose-50 hover:text-rose-50",
+            "button":"hover:bg-rose-700 bg-rose-700/30 ring-rose-700 text-rose-300 hover:text-rose-50",
             "arrow":"hover:text-rose-600 shadow-rose-600 lg:bg-rose-50/20 hover:lg:bg-rose-600/50"
         }
     }
