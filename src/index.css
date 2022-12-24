@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base{
+    html,
+    body{
+        min-height: 500px;
+    }
     h1 {
         @apply text-5xl;
     }
@@ -22,8 +26,9 @@
     a {
         @apply text-xl;
     }
+    
     button{
-        @apply px-10 py-3 ring-2 ring-slate-800 rounded-xl tracking-wider text-xl uppercase transition
+        @apply px-10 py-2 ring-2 rounded-xl tracking-widest text-2xl uppercase transition
     }
 
 }

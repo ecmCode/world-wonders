@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div :class="style.header">
     <h1 :class="style.logo">{{ logo }}</h1>
@@ -19,7 +20,7 @@ export default {
       style: {
         header:
           "p-2 md:p-6 w-full justify-between lg:justify-around items-start flex z-20 absolute top-0",
-        logo: "font-light select-none text-slate-50 px-10",
+        logo: "font-light select-none text-slate-50 px-0 sm:px-10",
         nav: "hidden lg:flex gap-2 select-none",
         item: "hover:bg-slate-800/70 hover:shadow-inner text-slate-50 transition p-4 cursor-pointer tracking-widest uppercase",
         menu: "block lg:hidden text-slate-900 text-3xl cursor-pointer p-4 drop-shadow-xl hover:bg-slate-900/50 hover:shadow-inner transition hover:text-slate-50",
